@@ -25,3 +25,20 @@ y = 3.0
 print(sqrt(x**2 + y**2))
 
 # p.67
+route1 = 10
+route2 = sqrt(3**2 + 4**2)
+route3 = sqrt(3**2 + 4**2)
+route4 = 8
+
+result = (route1 + route4) / 20 + route2 / 10 + route3 / 30
+print('주행하는데에 걸리는 시간은 ',result,'시간이다')
+print('주행하는데에 걸리는 시간은 ' + str(int((result * 60) // 60)) + '시간 ' + str(int((result * 60) % 60)) + '분이다')
+
+#p.74
+price = 28000
+
+#p.81
+print('C:\some\name')               # 여기서 \n은 줄바꿈으로 잘못 해석된다
+print(r'C:\some\name')              # 첫 따옴표 앞에 r을 추가하면 특수 문자의 의미를 없앨 수 있다.
+
+
